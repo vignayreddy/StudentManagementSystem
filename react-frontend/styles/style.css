@@ -1,0 +1,162 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    background-color: #F3F4F6;
+    text-align: center;
+}
+
+body a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(221, 130, 18);
+    transition: transform 0.3s ease;
+}
+
+/* NAVBAR */
+nav {
+    background-color: #293850;
+    padding: 20px;
+    text-align: end;
+}
+
+nav a {
+    font-size: larger;
+    color: #fff;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* FORM */
+.form {
+    justify-items: center;
+}
+
+form {
+    text-align: left;
+    width: 350px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+input {
+    border: 1px solid hsl(0, 55%, 91%);
+    margin: 10px 0px;
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+
+button {
+    border: 0px;
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #3B82F6;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+/* TABLE CONTAINER */
+.table {
+    width: 100%;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+/* TABLE */
+table {
+    width: 600px;
+    border-collapse: collapse;
+    border: 1px solid #4279cc6b;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+td, th {
+    padding: 12px;
+    text-align: center;
+}
+
+/* HEADER ROW */
+th {
+    cursor: pointer;
+    user-select: none;
+    background-color: #f3f4f6;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Hover effect for sorting headers */
+th:hover {
+    background-color: #e5e7eb;
+}
+
+/* Active sorted column */
+th.active-sort {
+    background-color: #dbeafe;
+    color: #1d4ed8;
+}
+
+/* Sort icon */
+th span {
+    margin-left: 6px;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+/* Active sort icon */
+th.active-sort span {
+    opacity: 1;
+    color: #1d4ed8;
+    font-weight: bold;
+}
+
+/* LINKS INSIDE TABLE */
+tr a {
+    color: #3B82F6;
+    margin: 0px 5px;
+}
+
+tr a:hover {
+    color: #3a60c8;
+    text-decoration: underline;
+}
+
+/* ROW STYLING */
+tr:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tr:hover {
+    background-color: #E2E8F0;
+}
+
+/* REMOVE FIRST-CHILD OVERRIDE (fixes header bug) */
+/* (intentionally removed incorrect tr:first-child styling) */
+
+
+
+
+
+
+
+
+
